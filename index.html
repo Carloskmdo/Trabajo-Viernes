@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> VIVA QUITO </title>
+  </head>
+  <body>
+    <script>
+    function retornarPerimetro(lado)
+  {
+     var perimetro;
+     perimetro=lado*4;
+     return perimetro;
+  }
+
+  var lado;
+  lado=prompt('Ingrese la medida del lado de un cuadrado:','');
+  lado=parseInt(lado);
+  document.write('El perímetro del cuadrado es:'+retornarPerimetro(lado));
+</script>
+<script>
+  var cont=0;
+  function incrementar(){
+    cont++;
+    alert('El contador se incremento en 1: '+cont);
+  }
+  </script>
+<form>
+  <input type= "button" onclick="incrementar()" value="Incrementar">
+</form>
+<script>
+</script>
+</body>
+</html>
